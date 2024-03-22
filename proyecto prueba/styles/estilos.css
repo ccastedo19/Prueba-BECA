@@ -48,6 +48,10 @@
     url("https://db.onlinewebfonts.com/t/6919b1d8ce07af7205b8a5ae3ec2013b.ttf")format("truetype"),
     url("https://db.onlinewebfonts.com/t/6919b1d8ce07af7205b8a5ae3ec2013b.svg#Apercu-Light")format("svg");
 }
+/*elimiancion de seccion*/
+.container-art-6{
+    display: none;
+}
 
 /* Cabecera */
 header {
@@ -622,7 +626,7 @@ footer{
 }
 
 /*Ajuste en Pantallas pequeñas/Laptops*/
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
+@media screen and (min-width: 768px) and (max-width: 1440px) {
     /* Art-1 */
     .header-text{
         font-size: 0.650rem;
